@@ -50,4 +50,4 @@ for(let i = 10000; number; i /= 10) {
     number = Math.abs(number % i);
 }
 
-console.log(resultNumber);
+console.log(resultNumber.join(' '));
